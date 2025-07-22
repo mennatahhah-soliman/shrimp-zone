@@ -1,0 +1,74 @@
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ .nav-link{
+  color: var(--main-color)!important; 
+}
+/*header*/
+.navbar-nav ,.hed-tit{
+  color: #023047;
+}
+.navbar-nav:hover{
+color: #195a69;
+}
+.icon-hed{
+  color: #fb8500;
+}
+.btn-search {
+  border: none; 
+  border-radius: 12px;
+  width: 120px;
+  height: 40px;
+  background-color: #fb8600e8;
+  color: #ffff; 
+}
+.btn-search:hover {
+  background-color: #195a69; 
+  color: #fff; 
+}
+/*header*/
+/* home */
+.learn-btn{
+  background-color: #ffb703;
+}
+.learn-btn:hover{
+background-color: #195a69;
+}
+.view-btn{
+  background-color: #023047;
+  color:#fff;
+}
+.view-btn:hover{
+    background-color: #195a69;
+}
+.card {
+  transition: transform 0.7s ease;
+}
+.card:hover {
+  transform: scale(1.08);
+}
+/*home*/
+/*contact*/
+.cont-tit{
+  color: #023047;
+}
+.p-cont{
+  color: #023047;
+}
+/*contact*/
+
+
+
+
+
